@@ -1,1 +1,3 @@
 # Fruitables-DEA
+
+## Project Structure
