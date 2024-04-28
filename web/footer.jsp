@@ -29,9 +29,9 @@
                 <div class="col-md-3 sign-gd-two">
                     <h4 style="text-align: left;">Contact Us:</h4>
                     <ul style="text-align: left;">
-                        <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Address : Indore, <span>India.</span></li>
-                        <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>Email : <a href="mailto:info@data-flair.training">info@data-flair.training</a></li>
-                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>Phone : +91-84510-97879</li>
+                        <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Address : Colombo, <span>Sri Lanka</span></li>
+                        <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>Email : <a href="mailto:hskavindi@students.nsbm.ac.lk">Team Lead - Sanjana</a></li>
+                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>Phone : +94-777-123456</li>
                     </ul>
                 </div>
             </div>
@@ -41,7 +41,7 @@
             <center>
                 <div class="container">
                     <h4>
-                        &copy;  <span id="year"></span> DataFlair - Online Shopping System |<a href="https://data-flair.training" target="_blank"> Designed by : DataFlair</a>
+                        &copy;  <span id="year"></span> DEA - Online Shopping System |<a href="https://data-flair.training" target="_blank"> Designed by : DEA</a>
                     </h4>
                 </div>
             </center>
