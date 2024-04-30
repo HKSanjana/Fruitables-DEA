@@ -49,11 +49,15 @@ Developing a Java web project with a team of 10 members can be challenging, but 
 
 ### COMMUNICATION
 
+<details>
+ 
 Communication is paramount in any team setting, and with a larger team, the challenge of maintaining effective communication becomes more pronounced. Fragmented communication can lead to misunderstandings, duplication of efforts, and a lack of cohesion within the team. To overcome these challenges, several strategies can be employed.
 Regular team meetings are essential to keep everyone informed about the project's progress, discuss any issues or roadblocks, and align on priorities. These meetings should be structured and focused to ensure that they are productive and valuable to all team members.
 Using collaboration tools like Slack or Microsoft Teams can facilitate real-time communication and collaboration. These tools allow team members to communicate instantly, share files and documents, and collaborate on projects in a centralized and organized manner. Establishing clear channels for feedback and updates ensures that important information is shared efficiently and that everyone is on the same page.
 In addition to formal meetings and collaboration tools, informal communication channels should also be encouraged. Watercooler chats, virtual coffee breaks, or team-building activities can help foster a sense of camaraderie and strengthen relationships among team members.
 Overall, effective communication is the key to overcoming the challenges of working in a larger team. By ensuring regular communication, using the right tools, and fostering a culture of open and transparent communication, teams can work together more effectively and achieve better results.
+
+</details>
 
 ### COORDINATION 
 
