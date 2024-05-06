@@ -15,7 +15,7 @@ public class DatabaseConnection {
         try {
             //Registering with mysql Driver
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3308/shoppingsystem", "root", "Narend-10");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/shoppingsystem", "root", "");
         } catch (Exception e) {
             e.printStackTrace();
         }
