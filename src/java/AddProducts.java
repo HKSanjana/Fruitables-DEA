@@ -21,7 +21,7 @@ import com.connection.DatabaseConnection;
 public class AddProducts extends HttpServlet {
 
     //Path where all the images are stored
-    private final String UPLOAD_DIRECTORY = "C:\\Users\\NARENDER KESWANI\\Documents\\NetBeansProjects\\OnlineShoppingSystem\\web\\uploads";
+    private final String UPLOAD_DIRECTORY = "D:\\git hub\\Fruitables-DEA\\Fruitables-DEA\\web\\uploads";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

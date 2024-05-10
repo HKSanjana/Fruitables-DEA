@@ -17,8 +17,22 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <script src="js/jquery.easing.min.js"></script>
+        <style>
+            .bg {
+                /* The image used */
+                /* background-image: url("assets/img/whenisfruitr.jpg"); */
+
+                /* Full height */
+                height: 80%;
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-image: url(assets/img/s18.png);" class="bg">
         <div class="ban-top">
             <div class="container">
                 <div class="top_nav_left">
@@ -89,16 +103,16 @@
                                 <form action="CustomerLogin" method="post">
                                     <div class="sign-in">
                                         <h4>Email :</h4>
-                                        <input type="text" value="" style="width: 680px;" required=""
+                                        <input type="text" value="" style="width: 500px;" required=""
                                                name="email">
                                     </div>
                                     <div class="sign-in">
                                         <h4>Password :</h4>
-                                        <input type="password" value="" style="width: 680px;"
+                                        <input type="password" value="" style="width: 500px;"
                                                required="" name="password">
                                     </div>
                                     <div class="sign-in">
-                                        <input type="submit" value="SIGNIN" style="width: 680px;">
+                                        <input type="submit" value="SIGNIN" style="width: 500px; color: black;">
                                     </div>
                                 </form>
                             </div>
@@ -112,5 +126,14 @@
             </div>
         </div>
         <jsp:include page="footer.jsp"></jsp:include>
+        <style>
+            .modal-content.modal-info{
+                background-color: #00000047;
+                color: whitesmoke;
+            }
+            .sign-in{
+                background-color: #0000008b;
+            }
+        </style>
     </body>
 </html>

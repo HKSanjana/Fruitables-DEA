@@ -19,8 +19,22 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <script src="js/jquery.easing.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+        <style>
+            .bg {
+                /* The image used */
+                /* background-image: url("assets/img/whenisfruitr.jpg"); */
+    
+                /* Full height */
+                height: 80%;
+    
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-image: url(assets/img/s16.jpeg);" class="bg">
         <%
             //Checking whether admin in session or not
             if (session.getAttribute("uname") != null && session.getAttribute("uname") != "") {

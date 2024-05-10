@@ -17,10 +17,25 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <script src="js/jquery.easing.min.js"></script>
-        <script src='../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-        <script src="../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+        <script src="http://m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+        <style>
+            .bg {
+                /* The image used */
+                /* background-image: url("assets/img/apple.jpg"); */
+
+                /* Full height */
+                height: 80%;
+                
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-image: url(assets/img/s27.jpg);" class="bg">
         <div class="ban-top">
             <div class="container">
                 <div class="top_nav_left">
@@ -99,23 +114,23 @@
                                 <form action="AddCustomer" method="post">
                                     <div class="sign-up">
                                         <h4>Your Name :</h4>
-                                        <input type="text" placeholder="Your Name" required="" style="width: 680px;" name="name">
+                                        <input type="text" placeholder="Your Name" required="" style="width: 500px;" name="name">
                                     </div>
                                     <div class="sign-up">
                                         <h4>Email :</h4>
-                                        <input type="text" placeholder="Type here" required="" style="width: 680px;" name="email">
+                                        <input type="text" placeholder="Type here" required="" style="width: 500px;" name="email">
                                     </div>
                                     <div class="sign-up">
                                         <h4>Password :</h4>
-                                        <input type="password" placeholder="Password" required="" style="width: 680px;" name="password">
+                                        <input type="password" placeholder="Password" required="" style="width: 500px;" name="password">
                                     </div>
                                     <div class="sign-up">
                                         <h4>Phone :</h4>
-                                        <input type="text" placeholder="Type here" required="" style="width: 680px;" name="mobile">
+                                        <input type="text" placeholder="Type here" required="" style="width: 500px;" name="mobile">
                                     </div>
                                     <div class="sign-up">
                                         <h4>Gender :</h4>
-                                        <br> <select class="form-control" style="width: 680px;" name="gender">
+                                        <br> <select class="form-control" style="width: 500px;" name="gender">
                                             <option>Male</option>
                                             <option>Female</option>
                                         </select>
@@ -123,14 +138,14 @@
                                     <br>
                                     <div class="sign-up">
                                         <h4>Address :</h4>
-                                        <input type="text" placeholder="Type here" required="" style="min-height: 100px; width: 680px;" name="address">
+                                        <input type="text" placeholder="Type here" required="" style="min-height: 100px; width: 500px;" name="address">
                                     </div>
                                     <div class="sign-up">
                                         <h4>Pin Code :</h4>
-                                        <input type="text" placeholder="Pincode" required="" style="width: 680px;" name="pincode">
+                                        <input type="text" placeholder="Pincode" required="" style="width: 500px;" name="pincode">
                                     </div>
                                     <div class="sign-up">
-                                        <input type="submit" value="REGISTER NOW" style="width: 680px;">
+                                        <input type="submit" value="REGISTER NOW" style="width: 500px; color: black;">
                                     </div>
                                 </form>
                             </div>
@@ -144,5 +159,11 @@
             </div>
         </div>
         <jsp:include page="footer.jsp"></jsp:include>
+        <style>
+            .modal-content.modal-info{
+                background-color: #00000047;
+                color: whitesmoke;
+            }
+        </style>
     </body>
 </html>

@@ -41,7 +41,7 @@
             <center>
                 <div class="container">
                     <h4>
-                        &copy;  <span id="year"></span> DEA - Online Shopping System |<a href="https://data-flair.training" target="_blank"> Designed by : DEA</a>
+                        &copy;  <span id="year"></span> DEA - Online Shopping System | Designed by : DEA</a>
                     </h4>
                 </div>
             </center>

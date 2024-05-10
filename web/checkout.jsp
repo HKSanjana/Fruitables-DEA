@@ -22,8 +22,23 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src='../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
         <script src="../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+        <style>
+            .bg {
+                /* The image used */
+                background-image: url("img/whenisfruitr.jpg");
+    
+                /* Full height */
+                height: 80%;
+                background-color:rgb(104, 227, 215);
+    
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-image: url(img/whenisfruitr.jpg);" class="bg">
         <%
             //Checking whether customer in session or not
             if (session.getAttribute("name") != null && session.getAttribute("name") != "") {

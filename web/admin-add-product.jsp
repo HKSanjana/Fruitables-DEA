@@ -18,8 +18,24 @@
         <script src="js/jquery.easing.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <style>
+            .bg {
+                /* The image used */
+                /* background-image: url("assets/img/s.jpg"); */
+    
+                /* Full height */
+                height: 80%;
+                
+               
+    
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-image: url(assets/img/s14.jpg);" class="bg">*/
         <%
             //Checking whether admin in session or not
             if (session.getAttribute("uname") != null && session.getAttribute("uname") != "") {
